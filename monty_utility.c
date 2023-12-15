@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * add_node - Add node to the stack head. 
+ * add_node - Add node to the stack head.
  * @head: Head stack
  * @val: New_value
  * Return: no return
@@ -24,7 +24,7 @@ void add_node(stack_t **head, int val)
 }
 
 /**
- * add_queue - Add node to the stack tail. 
+ * add_queue - Add node to the stack tail.
  * @val: New_value
  * @head: Head  stack
  * Return: no return
@@ -60,7 +60,7 @@ void add_queue(stack_t **head, int val)
 
 #include "monty.h"
 /**
-* free_sq - Frees doubly list linked. 
+* free_sq - Frees doubly list linked.
 * @head: Head  stack
 */
 void free_sq(stack_t *head)
